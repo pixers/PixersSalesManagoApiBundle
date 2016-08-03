@@ -58,11 +58,11 @@ pixers_sales_manago_api:
 
 Bundle adds "salesmanago" service that is an instance of SalesManago[https://github.com/pixers/salesmanago-api/blob/master/src/Pixers/SalesManagoAPI/SalesManago.php] class.
 
-h3. Example usage in controller
+### Example usage in controller
 
 ```php
 
-public function fooAction() 
+public function fooAction()
 {
     $this->get('salesmanago')->getContactService();
 }

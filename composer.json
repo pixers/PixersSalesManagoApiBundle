@@ -1,6 +1,6 @@
 {
     "name": "pixers/salesmanago-api-bundle",
-    "type": "library",
+    "type": "symfony-bundle",
     "description": "sales manago api client",
     "keywords": [
         "sales",
@@ -10,7 +10,7 @@
         "symfony"
     ],
     "homepage": "http://www.pixers.pl",
-    "license": "LGPL-3.0+",
+    "license": "BSD-3-Clause",
     "authors": [
         {
             "name": "Michal Kanak",
@@ -19,7 +19,8 @@
     ],
     "require": {
         "php": ">=5.5.0",
-        "pixers/salesmanago-api": "^1.1.1"
+        "pixers/salesmanago-api": "^1.1.1",
+        "symfony/framework-bundle": "~2.3|~3.0"
     },
     "require-dev": {
         "phpunit/phpunit": "5.4.*"
